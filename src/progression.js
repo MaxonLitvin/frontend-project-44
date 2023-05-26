@@ -1,5 +1,5 @@
 import { RandomNubmers } from './even-random-numbers.js';
-import runGameLogic, { roundNumbers } from './gamelogic.js';
+import runGameLogic, { roundNumbers } from './index.js';
 
 const description = 'What number is missing in the progression?';
 const progressionLenght = 10;

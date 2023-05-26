@@ -1,5 +1,5 @@
 import { RandomNubmers } from './even-random-numbers.js';
-import runGameLogic, { roundNumbers } from './gamelogic.js';
+import runGameLogic, { roundNumbers } from './index.js';
 
 const description = 'Answer "yes" if the numbers is even, otherwise answer "no".';
 
