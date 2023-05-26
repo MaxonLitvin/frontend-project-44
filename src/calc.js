@@ -5,9 +5,9 @@ import runGameLogic, { roundNumbers } from "./gamelogic.js";
 const description = 'What is the result of the expression?';
 
 const GetRandomOperator = () => {
-    const operator = ['+', '-', '*'];
-    const randomOperatorIndex = RandomNubmers(0, operator.length - 1);
-    return operator[randomOperatorIndex];
+    const operators = ['+', '-', '*'];
+    const randomOperatorIndex = RandomNubmers(0, operators.length - 1);
+    return operators[randomOperatorIndex];
 };
 
 const calculate = (operator, number1, number2) => {
