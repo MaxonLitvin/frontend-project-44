@@ -18,7 +18,7 @@ const generationRound = () => {
   const resultProgressoin = generateArrays();
   const hiddenIndex = RandomNubmers(0, progressionLenght - 1);
   const correctAnswer = String(resultProgressoin[hiddenIndex]);
-  resultProgressoin[hiddenIndex] = '...';
+  resultProgressoin[hiddenIndex] = '..';
   const question = resultProgressoin.join(' ');
   return [question, correctAnswer];
 };
