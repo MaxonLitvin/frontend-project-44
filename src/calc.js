@@ -1,5 +1,6 @@
 import { RandomNubmers } from "./even-random-numbers.js";
-import runGameLogic from "./gamelogic.js";
+import runGameLogic, { roundNumbers } from "./gamelogic.js";
+
 
 const description = 'What is the result of the expression?';
 
