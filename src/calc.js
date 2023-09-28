@@ -38,5 +38,5 @@ const runCalcGame = () => {
   }
   return runGameLogic(round, description);
 };
-
+console.log('Hello, world!');
 export default runCalcGame;
